@@ -38,4 +38,4 @@ print htmlpage
 
 soup = BeautifulSoup(htmlpage)
 
-print soup
+print soup[0]
